@@ -1,7 +1,9 @@
 const indexRef = document.getElementById('validation-input')
 // console.log(indexRef.dataset.length)
+indexRef.setAttribute('maxlength', 6)
 
 indexRef.addEventListener('input', indexCheck)
+
 
 function indexCheck() {
     // console.log(this.value.length)
